@@ -3,7 +3,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "serve -s dist -l 8080"
+    "start": "serve -s dist -l $PORT"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
